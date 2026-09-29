@@ -25,9 +25,13 @@ C# (C Sharp) is a cross-platform, general-purpose programming language developed
 # Getting Started
 For context I am using a MacOS and will be using Visual Studio Code
 ## Installing C#
-1. open Visual Studio Code on MacOS. Then click on the extention button in the bottom left by <img width="384" height="431" alt="Screenshot 2026-09-29 at 2 28 02 PM" src="https://github.com/user-attachments/assets/55f69670-ccef-4a55-a151-fed39ff9362b" />
+1. open Visual Studio Code on MacOS
+2. Click on the Extension button
+<img width="384" height="431" alt="Screenshot 2026-09-29 at 2 28 02 PM" src="https://github.com/user-attachments/assets/55f69670-ccef-4a55-a151-fed39ff9362b" />
 
-
+3. Type in C# and download the official C# and the C# Dev Kit by Microsoft
+4. In the walkthrough, select Set up your environment and select Install .NET SDK
+   
 
 
 
