@@ -2,7 +2,7 @@
 
 ## History 
 
-### what is C#
+### What is C#
 C# (C Sharp) is a cross-platform, general-purpose programming language developed by Microsoft. It is an object-oriented language in the C family and is part of the .NET platform.
 ### When/where was it created, and by whom was C# created?
 - when: Created by Microsoft in 2000 as part of the .NET framework
@@ -25,12 +25,18 @@ C# (C Sharp) is a cross-platform, general-purpose programming language developed
 # Getting Started
 For context I am using a MacOS and will be using Visual Studio Code
 ## Installing C#
-1. open Visual Studio Code on MacOS
+1. Open Visual Studio Code on MacOS
 2. Click on the Extension button
 <img width="384" height="431" alt="Screenshot 2026-09-29 at 2 28 02 PM" src="https://github.com/user-attachments/assets/55f69670-ccef-4a55-a151-fed39ff9362b" />
 
-3. Type in C# and download the official C# and the C# Dev Kit by Microsoft
+3. Type in C# and download the official "C#" and the "C# Dev Kit" by Microsoft
 4. In the walkthrough, select Set up your environment and select Install .NET SDK
+## Hello World
+1. Type in >.NET:New Project into the explorer
+<img width="660" height="249" alt="Screenshot 2026-09-29 at 4 43 07 PM" src="https://github.com/user-attachments/assets/e414644e-2ebe-4061-983a-055af508e1ac" />
+2. 
+
+
    
 
 
