@@ -32,9 +32,14 @@ For context I am using a MacOS and will be using Visual Studio Code
 3. Type in C# and download the official "C#" and the "C# Dev Kit" by Microsoft
 4. In the walkthrough, select Set up your environment and select Install .NET SDK
 ## Hello World
-1. Type in >.NET:New Project into the explorer
+1. Type in and select >.NET:New Project into the explorer
+   
 <img width="660" height="249" alt="Screenshot 2026-09-29 at 4 43 07 PM" src="https://github.com/user-attachments/assets/e414644e-2ebe-4061-983a-055af508e1ac" />
-2. 
+
+3. After selecting the command select Console App
+   
+<img width="582" height="190" alt="Screenshot 2026-09-29 at 4 43 46 PM" src="https://github.com/user-attachments/assets/df3993c7-c7f9-4972-9df2-ddd74d05484c" />
+
 
 
    
