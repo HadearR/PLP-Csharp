@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hadear/Desktop/CS330/PLP-C#/PLP-C#.csproj",
-      "projectName": "PLP-C#",
-      "projectPath": "/Users/hadear/Desktop/CS330/PLP-C#/PLP-C#.csproj",
+      "projectUniqueName": "/Users/hadear/Desktop/CS330/PLP-C#/HelloWorld/HelloWorld.csproj",
+      "projectName": "HelloWorld",
+      "projectPath": "/Users/hadear/Desktop/CS330/PLP-C#/HelloWorld/HelloWorld.csproj",
       "packagesPath": "/Users/hadear/.nuget/packages/",
-      "outputPath": "/Users/hadear/Desktop/CS330/PLP-C#/obj/",
+      "outputPath": "/Users/hadear/Desktop/CS330/PLP-C#/HelloWorld/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hadear/.nuget/NuGet/NuGet.Config"
