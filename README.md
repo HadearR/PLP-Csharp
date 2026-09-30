@@ -48,7 +48,12 @@ For context I am using a MacOS and will be using Visual Studio Code
 
 ## Comments
 
+C# supports both single line and multiple line comments.
+- Like other C-family languages they all share the same baseline syntax for comments
+  
+  A single line comment starts with //
 
+  A multiple line comment starts with /* and ends with */
 
 
    
