@@ -41,10 +41,12 @@ For context I am using a MacOS and will be using Visual Studio Code
 <img width="582" height="190" alt="Screenshot 2026-09-29 at 4 43 46 PM" src="https://github.com/user-attachments/assets/df3993c7-c7f9-4972-9df2-ddd74d05484c" />
 
 4.Open Program.cs file
+
 <img width="371" height="141" alt="Screenshot 2026-09-29 at 9 03 39 PM" src="https://github.com/user-attachments/assets/2ed388f8-390b-4dbf-b0b3-267c8aa10559" />
+
 5. Run the program, your output should be, "Hello, World!"
 
-##Comments
+## Comments
 
 
 
