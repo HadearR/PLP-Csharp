@@ -40,11 +40,11 @@ For context I am using a MacOS and will be using Visual Studio Code
    
 <img width="582" height="190" alt="Screenshot 2026-09-29 at 4 43 46 PM" src="https://github.com/user-attachments/assets/df3993c7-c7f9-4972-9df2-ddd74d05484c" />
 
-4.Open Program.cs file
+4.Open 'Program.cs' file (renamed 'HelloWord.cs' to find easily)
 
 <img width="371" height="141" alt="Screenshot 2026-09-29 at 9 03 39 PM" src="https://github.com/user-attachments/assets/2ed388f8-390b-4dbf-b0b3-267c8aa10559" />
 
-5. Run the program, your output should be, "Hello, World!"
+5. Run the program, your output will be, "Hello, World!"
 
 ## Comments
 
@@ -55,10 +55,41 @@ C# supports both single line and multiple line comments.
 
   A multiple line comment starts with /* and ends with */
 
+## Data Types & Naming Conventions in C#
+This tutorial will cover how C# handles data types and how to properly name files and variables. Runnable code is in 'DataTypes.cs'
 
+1. Does C# have keywords or reserved words? How many?
+
+**Keywords or Reserved words** are words with special meanings in a programming language that cannot normally be used as variable names or objects.
+- if you want to use a keyword as an identifier use @ as a prefix
+  - example: double @int = 23.4; 
+- There are a total of 78 keywords in C#
+**There are a total of 10 categories of keywords**
+
+
+2. What are the naming requirments for variables?
+
+3. Is C# statically or dynamically typed? 
+
+4. Strong or weakly types?
+
+5. Explicitly typed or implicitly typed?
+
+6. Are some variables mutable while other are immutable?
+
+7. What are the operators available for each data type?
+
+8. Are mixed operations allowed?
+
+9. At what point are identifier names and operator symbols bound by language?
+
+10. Descibe the limitations of C#. Are there other restrictions that the documentations mentions that you need to be aware of?
+
+11. Are there built in complex data types that are commonly used in C#?
    
 
-
+### Source
+[Keywords](:https://www.geeksforgeeks.org/c-sharp/c-sharp-keywords/)
 
 
 
