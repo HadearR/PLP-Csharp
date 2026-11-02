@@ -163,14 +163,28 @@ There are built in complex data types that are commenly used.
 ## loops, if/else, switch, logical operators
 Runnable code is in ' '
 
-1. What are the boolean values in C#
-2. What types of conditional statements are available? (if/else, if/then/else, if/elseif/else). Does C# allow for statements other than “if”
-3. How does your language delimit code blocks under each condition in selection control statements?
-4. Does your language use short-circuit evaluation? Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
-5. How does your programming language deal with the “dangling else” problem?
-6. If your language supports switch or case statements, do you have to use “break” to get out of them? Can you use “continue” to have all of the conditions evaluated?
-7. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what are they and how do they differ from each other?
-8. Are loop code block variables treated differently than function code blocks?
+1. What are the boolean values in C# 
+bool values are writen as true false.
+
+3. What types of conditional statements are available?
+### If Statement
+The if statement is the simplest conditional statement, it executes the code only when the condition is true
+### if-else Statement
+An if-else statement is used when the first condition is true and the second is false
+
+### If-else-if ladder Statement
+Allows multiple independent conditions to be checked in order. If one condition is true, it executes, and the rest of the conditions are skipped.
+
+### Switch
+Instead of using a long if-else-if statement a switch would be more efficent. It is used when a single expression needs to be compared to multiple values.
+
+4. How does your language delimit code blocks under each condition in selection control statements?
+
+5. Does your language use short-circuit evaluation? Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
+6. How does your programming language deal with the “dangling else” problem?
+7. If your language supports switch or case statements, do you have to use “break” to get out of them? Can you use “continue” to have all of the conditions evaluated?
+8. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what are they and how do they differ from each other?
+9. Are loop code block variables treated differently than function code blocks?
 
 ## References
 [Keywords](https://www.geeksforgeeks.org/c-sharp/c-sharp-keywords/)
@@ -180,6 +194,9 @@ Runnable code is in ' '
 [C# Type System](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/types/)
 
 [Casting and type conversions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions)
+
+[Conditional Statements](https://www.geeksforgeeks.org/c-sharp/c-sharp-decision-making-else-else-ladder-nested-switch-nested-switch/)
+
 
 
 
