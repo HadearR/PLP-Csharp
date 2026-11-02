@@ -164,8 +164,7 @@ There are built in complex data types that are commenly used.
 Runnable code is in ' '
 
 1. What are the boolean values in C#
-2. What types of conditional statements are available? (if/else, if/then/else, if/elseif/else).
--  Does C# allow for statements other than “if”
+2. What types of conditional statements are available? (if/else, if/then/else, if/elseif/else). Does C# allow for statements other than “if”
 3. How does your language delimit code blocks under each condition in selection control statements?
 4. Does your language use short-circuit evaluation? Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
 5. How does your programming language deal with the “dangling else” problem?
