@@ -158,8 +158,23 @@ There are built in complex data types that are commenly used.
 - Arrays
 - List<T>
 - Dictionary<TKey, TValue>
-
-### Source
+## loops, if/else, switch, logical operators
+1. What are the boolean values in your language? (e.g., True and False, true and false, 1, and 0,
+etc.)
+2. What types of conditional statements are available in your language? (if/else, if/then/else,
+if/elseif/else). Does your language allow for statements other than “if” (for example, Perl has
+an “unless” statement, which does the opposite of “if”!)
+3. How does your language delimit code blocks under each condition in selection control
+statements?
+4. Does your language use short-circuit evaluation? Include an example of the short-circuit logic
+working or not working (or both, if your language is like Java and supports both!)
+5. 6. How does your programming language deal with the “dangling else” problem?
+If your language supports switch or case statements, do you have to use “break” to get out of
+them? Can you use “continue” to have all of the conditions evaluated?
+7. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what
+are they and how do they differ from each other?
+8. Are loop code block variables treated differently than function code blocks?
+### Refrences
 [Keywords](https://www.geeksforgeeks.org/c-sharp/c-sharp-keywords/)
 
 [Naming Rules](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names)
