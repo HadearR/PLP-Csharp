@@ -166,7 +166,7 @@ Runnable code is in ' '
 1. What are the boolean values in C# 
 bool values are writen as true false.
 
-3. What types of conditional statements are available?
+2. What types of conditional statements are available?
 ### If Statement
 The if statement is the simplest conditional statement, it executes the code only when the condition is true
 ### if-else Statement
@@ -178,13 +178,34 @@ Allows multiple independent conditions to be checked in order. If one condition 
 ### Switch
 Instead of using a long if-else-if statement a switch would be more efficent. It is used when a single expression needs to be compared to multiple values.
 
-4. How does your language delimit code blocks under each condition in selection control statements?
+3. How does C# fix code blocks under each condition in selection control statements?
 
-5. Does your language use short-circuit evaluation? Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
-6. How does your programming language deal with the “dangling else” problem?
-7. If your language supports switch or case statements, do you have to use “break” to get out of them? Can you use “continue” to have all of the conditions evaluated?
-8. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what are they and how do they differ from each other?
-9. Are loop code block variables treated differently than function code blocks?
+In C#, code blocks in selection control statements are delimited using curly braces or as a single unbraced statement.
+
+C# doesn't treat spaces and indentation alone as significant. Braces make a scope explicit, it prevents common mistakes. Only braces decide which statements belong to the branch.
+
+4. Does C# use short-circuit evaluation? Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
+Yes, C# does use short-circuit evaluation, like Java it supports both.
+
+5. How does your programming language deal with the “dangling else” problem?
+A "dangling else" problem happens when there is a nested if statement written without curly braces, creating confusion about which if statement the else clause belongs to. To avoid this issue, be sure to use curly braces properly.
+
+6. Does C# have to use “break” to get out of switch or case statements? Can you use “continue” to have all of the conditions evaluated?
+
+For switch statements you can use “break” to get out, but it is not the only way. You can input any jump statement.
+
+#### Jump Statements
+- break: terminated the closest enclosing loop or switch statement. It transfers control to the following statement, after the break.  
+- continue: starts a new iteration of the closest enclosing loop statement
+- return: terminiates execution of the function where it appears. It returns control and the functions result, to the caller.
+- goto: transfers control to a statement that a label marks (can be used for loops and switch statements)
+  
+In C# "continue" is only used when there is a loop. If you used "continue" in a switch statement that is **not** inside a loop, there will be a compiler error.
+
+7. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what are they and how do they differ from each other? 
+
+
+8. Are loop code block variables treated differently than function code blocks?
 
 ## References
 [Keywords](https://www.geeksforgeeks.org/c-sharp/c-sharp-keywords/)
@@ -196,6 +217,10 @@ Instead of using a long if-else-if statement a switch would be more efficent. It
 [Casting and type conversions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions)
 
 [Conditional Statements](https://www.geeksforgeeks.org/c-sharp/c-sharp-decision-making-else-else-ladder-nested-switch-nested-switch/)
+
+[Selection Statements](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/statements/selection)
+
+[Jump Statements](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements#the-continue-statement)
 
 
 
