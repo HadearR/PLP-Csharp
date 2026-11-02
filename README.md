@@ -172,7 +172,7 @@ Runnable code is in ' '
 7. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what are they and how do they differ from each other?
 8. Are loop code block variables treated differently than function code blocks?
 
-### Refrences
+## References
 [Keywords](https://www.geeksforgeeks.org/c-sharp/c-sharp-keywords/)
 
 [Naming Rules](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/identifier-names)
