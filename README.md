@@ -56,7 +56,8 @@ C# supports both single line and multiple line comments.
   A multiple line comment starts with /* and ends with */
 
 ## Data Types & Naming Conventions in C#
-This tutorial will cover how C# handles data types and how to properly name files and variables. Runnable code is in 'DataTypes.cs'
+This tutorial will cover how C# handles data types and how to properly name files and variables. Runnable code is in [DataTypes.cs](https://github.com/HadearR/PLP-Csharp/blob/main/ConsoleApp1/DataType.cs) 
+
 
 1. Does C# have keywords or reserved words? How many?
 
