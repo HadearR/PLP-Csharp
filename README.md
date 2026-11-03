@@ -185,7 +185,7 @@ In C#, code blocks in selection control statements are delimited using curly bra
 C# doesn't treat spaces and indentation alone as significant. Braces make a scope explicit, it prevents common mistakes. Only braces decide which statements belong to the branch.
 
 4. Does C# use short-circuit evaluation? Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
-Yes, C# does use short-circuit evaluation, like Java it supports both.
+Yes, C# does use short-circuit evaluation, like Java it supports both. && and || short-circuit. && stops when the left side is false, and || stops when the left side is true.
 
 5. How does your programming language deal with the “dangling else” problem?
 A "dangling else" problem happens when there is a nested if statement written without curly braces, creating confusion about which if statement the else clause belongs to. To avoid this issue, be sure to use curly braces properly.
@@ -208,11 +208,16 @@ iteration statements, commonly known as loops are statements that are used to ex
 ##### For statement
 executes a statement(s) while a specific boolean experession evaluates as true
 ##### foreach
-executes a statement(s) for each element in an instance of the tupe of 
-##### do 
+used exclusively to loop through elements in an array
+##### Do/While
+A variant of a while loop that runs its code block once before checking the condition, then repeats as long as the condition remains true.
 ##### while
+Repeats a block of code as long as its condition is true
 
 8. Are loop code block variables treated differently than function code blocks?
+   - **loop variables:**
+   - **Function variables:**
+   
 
 ## References
 [Keywords](https://www.geeksforgeeks.org/c-sharp/c-sharp-keywords/)
