@@ -203,7 +203,14 @@ For switch statements you can use “break” to get out, but it is not the only
 In C# "continue" is only used when there is a loop. If you used "continue" in a switch statement that is **not** inside a loop, there will be a compiler error.
 
 7. Does your language include multiple types of loops (while, do/while, for, foreach)? If so, what are they and how do they differ from each other? 
-
+#### Iteration statements
+iteration statements, commonly known as loops are statements that are used to execute parts of code repeatedly based on a condition.
+##### For statement
+executes a statement(s) while a specific boolean experession evaluates as true
+##### foreach
+executes a statement(s) for each element in an instance of the tupe of 
+##### do 
+##### while
 
 8. Are loop code block variables treated differently than function code blocks?
 
@@ -222,7 +229,7 @@ In C# "continue" is only used when there is a loop. If you used "continue" in a 
 
 [Jump Statements](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements#the-continue-statement)
 
-
+[Iteration statements](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements)
 
 
 
