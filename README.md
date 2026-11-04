@@ -195,10 +195,10 @@ A "dangling else" problem happens when there is a nested if statement written wi
 For switch statements you can use “break” to get out, but it is not the only way. You can input any jump statement.
 
 #### Jump Statements
-- break: terminated the closest enclosing loop or switch statement. It transfers control to the following statement, after the break.  
-- continue: starts a new iteration of the closest enclosing loop statement
-- return: terminiates execution of the function where it appears. It returns control and the functions result, to the caller.
-- goto: transfers control to a statement that a label marks (can be used for loops and switch statements)
+- **break:** terminated the closest enclosing loop or switch statement. It transfers control to the following statement, after the break.  
+- **continue:** starts a new iteration of the closest enclosing loop statement
+- **return:** terminiates execution of the function where it appears. It returns control and the functions result, to the caller.
+- **goto:** transfers control to a statement that a label marks (can be used for loops and switch statements)
   
 In C# "continue" is only used when there is a loop. If you used "continue" in a switch statement that is **not** inside a loop, there will be a compiler error.
 
@@ -215,9 +215,11 @@ A variant of a while loop that runs its code block once before checking the cond
 Repeats a block of code as long as its condition is true
 
 8. Are loop code block variables treated differently than function code blocks?
-   - **loop variables:**
-   - **Function variables:**
-   
+**loop code block:**
+A variable made inside a loop only lives inside that loop. It disappears when the loop ends.
+**function code blocks:**
+A variable made inside a function only lives inside that function. It disappears when the function ends.
+They both have the same rule, a variable only lives inside the curly braces where it was made.
 
 ## References
 [Keywords](https://www.geeksforgeeks.org/c-sharp/c-sharp-keywords/)
