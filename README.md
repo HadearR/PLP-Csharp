@@ -215,10 +215,13 @@ A variant of a while loop that runs its code block once before checking the cond
 Repeats a block of code as long as its condition is true
 
 8. Are loop code block variables treated differently than function code blocks?
+
 **loop code block:**
 A variable made inside a loop only lives inside that loop. It disappears when the loop ends.
+
 **function code blocks:**
 A variable made inside a function only lives inside that function. It disappears when the function ends.
+
 They both have the same rule, a variable only lives inside the curly braces where it was made.
 
 ## References
