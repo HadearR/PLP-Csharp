@@ -161,7 +161,7 @@ There are built in complex data types that are commenly used.
 - Dictionary<TKey, TValue>
 
 ## loops, if/else, switch, logical operators
-Runnable code is in ' '
+Runnable code is in '[CondStat.cs](https://github.com/HadearR/PLP-Csharp/blob/main/ConsoleApp1/CondStat.cs)'
 
 1. What are the boolean values in C# 
 bool values are writen as true false.
