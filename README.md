@@ -169,6 +169,7 @@ bool values are writen as true false.
 2. What types of conditional statements are available?
 ### If Statement
 The if statement is the simplest conditional statement, it executes the code only when the condition is true
+
 ### if-else Statement
 An if-else statement is used when the first condition is true and the second is false
 
@@ -185,9 +186,11 @@ In C#, code blocks in selection control statements are delimited using curly bra
 C# doesn't treat spaces and indentation alone as significant. Braces make a scope explicit, it prevents common mistakes. Only braces decide which statements belong to the branch.
 
 4. Does C# use short-circuit evaluation? Include an example of the short-circuit logic working or not working (or both, if your language is like Java and supports both!)
+
 Yes, C# does use short-circuit evaluation, like Java it supports both. && and || short-circuit. && stops when the left side is false, and || stops when the left side is true.
 
 5. How does your programming language deal with the “dangling else” problem?
+
 A "dangling else" problem happens when there is a nested if statement written without curly braces, creating confusion about which if statement the else clause belongs to. To avoid this issue, be sure to use curly braces properly.
 
 6. Does C# have to use “break” to get out of switch or case statements? Can you use “continue” to have all of the conditions evaluated?
@@ -240,7 +243,7 @@ They both have the same rule, a variable only lives inside the curly braces wher
 [Jump Statements](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements#the-continue-statement)
 
 [Iteration statements](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements)
-
+[Boolean logical operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators)
 
 
 
