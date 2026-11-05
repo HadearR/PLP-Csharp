@@ -40,7 +40,7 @@ For context I am using a MacOS and will be using Visual Studio Code
    
 <img width="582" height="190" alt="Screenshot 2026-09-29 at 4 43 46 PM" src="https://github.com/user-attachments/assets/df3993c7-c7f9-4972-9df2-ddd74d05484c" />
 
-4.Open 'Program.cs' file (renamed 'HelloWord.cs' to find easily)
+4.Open 'Program.cs' file (renamed 'HelloWorld.cs' to find easily)
 
 <img width="371" height="141" alt="Screenshot 2026-09-29 at 9 03 39 PM" src="https://github.com/user-attachments/assets/2ed388f8-390b-4dbf-b0b3-267c8aa10559" />
 
@@ -68,7 +68,7 @@ This tutorial will cover how C# handles data types and how to properly name file
 
     a.  Value Type Keyword: 15 keywords to define various data types (e.g, bool, char, double)
 
-    b. Reference Type Keywords: 6 keywords used to store refrences of the data or objects (e.g, class, string, void)
+    b. Reference Type Keywords: 6 keywords used to store references of the data or objects (e.g, class, string, void)
 
     c. Modifiers Keywords: 17 keywords used to modify the declarations of type member (e.g, public, private, static)
 
@@ -80,7 +80,7 @@ This tutorial will cover how C# handles data types and how to properly name file
 
     g. Operator Keywords: 8 keywords used for different purposes (e.g,as, is, new)
 
-    h. Conversion Keywords: 3 keywords used in type conversation (e.g, explicit, implicit, operator)
+    h. Conversion Keywords: 3 keywords used in type conversion (e.g, explicit, implicit, operator)
 
     i. Access Keywords: 2 keywords used in accessing and refrencing class(e.g,base, this)
 
@@ -89,7 +89,7 @@ This tutorial will cover how C# handles data types and how to properly name file
 
 2. Naming requirments & conventions; are they enforced?
    
-**Requirments** (enforced by the compiler)
+**requirements** (enforced by the compiler)
 - Identifiers are case-sensitive.
 - Identifiers must start with a letter or underscore, not a digit.
 - Identifiers can contain letters, digits, and underscores.
@@ -154,7 +154,7 @@ For Example:
   
 11. Are there built in complex data types that are commonly used in C#?
     
-There are built in complex data types that are commenly used.
+There are built in complex data types that are commonly used.
 - string
 - Arrays
 - List<T>
@@ -164,20 +164,21 @@ There are built in complex data types that are commenly used.
 Runnable code is in '[CondStat.cs](https://github.com/HadearR/PLP-Csharp/blob/main/ConsoleApp1/CondStat.cs)'
 
 1. What are the boolean values in C# 
-bool values are writen as true false.
+bool values are written as true false.
 
 2. What types of conditional statements are available?
 ### If Statement
 The if statement is the simplest conditional statement, it executes the code only when the condition is true
 
 ### if-else Statement
-An if-else statement is used when the first condition is true and the second is false
+An if-else statement runs one block of code when its condition is true and a different block when it is false.
+
 
 ### If-else-if ladder Statement
 Allows multiple independent conditions to be checked in order. If one condition is true, it executes, and the rest of the conditions are skipped.
 
 ### Switch
-Instead of using a long if-else-if statement a switch would be more efficent. It is used when a single expression needs to be compared to multiple values.
+Instead of using a long if-else-if statement a switch would be more efficient. It is used when a single expression needs to be compared to multiple values.
 
 3. How does C# fix code blocks under each condition in selection control statements?
 
@@ -191,7 +192,7 @@ Yes, C# does use short-circuit evaluation, like Java it supports both. && and ||
 
 5. How does your programming language deal with the “dangling else” problem?
 
-A "dangling else" problem happens when there is a nested if statement written without curly braces, creating confusion about which if statement the else clause belongs to. To avoid this issue, be sure to use curly braces properly.
+A “dangling else” problem happens when nested if statements are written without curly braces, making it unclear which if an else belongs to. C# resolves this with a fixed rule: an else attaches to the nearest preceding if that doesn’t already have one. Using curly braces makes the intended structure explicit and avoids mistakes.
 
 6. Does C# have to use “break” to get out of switch or case statements? Can you use “continue” to have all of the conditions evaluated?
 
@@ -200,7 +201,7 @@ For switch statements you can use “break” to get out, but it is not the only
 #### Jump Statements
 - **break:** terminated the closest enclosing loop or switch statement. It transfers control to the following statement, after the break.  
 - **continue:** starts a new iteration of the closest enclosing loop statement
-- **return:** terminiates execution of the function where it appears. It returns control and the functions result, to the caller.
+- **return:** terminates execution of the function where it appears. It returns control and the functions result, to the caller.
 - **goto:** transfers control to a statement that a label marks (can be used for loops and switch statements)
   
 In C# "continue" is only used when there is a loop. If you used "continue" in a switch statement that is **not** inside a loop, there will be a compiler error.
@@ -209,9 +210,10 @@ In C# "continue" is only used when there is a loop. If you used "continue" in a 
 #### Iteration statements
 iteration statements, commonly known as loops are statements that are used to execute parts of code repeatedly based on a condition.
 ##### For statement
-executes a statement(s) while a specific boolean experession evaluates as true
+executes a statement(s) while a specific boolean expression evaluates as true
 ##### foreach
-used exclusively to loop through elements in an array
+Loops through every element of a collection, such as an array, a List, or a Dictionary, without needing an index.
+
 ##### Do/While
 A variant of a while loop that runs its code block once before checking the condition, then repeats as long as the condition remains true.
 ##### while
