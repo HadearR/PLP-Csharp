@@ -17,18 +17,23 @@ class CondStats{
         {
             Console.WriteLine("True, v is greater than 22");
         }
+        else
+        {
+            Console.WriteLine("False, v is not greater than 22");
+        }
     }
     //2. multi-condition if/else statement
     static void MultiConditionIf()
     {
-        int i = 60;
-        if (i > 40)
+        int x = 5;
+        int y = 2;
+        if (x > 0 && y < 10)
         {
-            Console.WriteLine("i is greater than 40");
+            Console.WriteLine("x is greater than 0 and y is less than 10");
         }
         else
         {
-            Console.WriteLine("i is less than 40");
+            Console.WriteLine("at least one condition is false");
         }
     }
     //3. If-else if-else statements
@@ -49,9 +54,16 @@ class CondStats{
         }
     }
     //4. short-circuit logic
+    static bool Right()
+    {
+        Console.WriteLine("Right side ran");
+        return true;
+    }
     static void ShortCircuit()
     {
-        
+        bool a = false && Right();   
+        bool b = true || Right();    
+        bool c = true && Right();
     }
 
     //5. a switch-case statement
