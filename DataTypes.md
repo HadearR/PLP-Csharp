@@ -83,7 +83,7 @@ Yes, if there is an *implicit* conversion between the types.
 ### 10. Limitations
 
 - **Memory Management**: uses Garbage Collection (GC) to free unused memory, but this can sometimes cause brief pauses.
-- **.NET**" need .NET installed to run, which increases file size.
+- **.NET**" needs .NET installed to run, which increases file size.
 - **Slow**:is often compiled at runtime, which can make it slower and use more memory than languages like C++ or Rust.
   
 ### 11. Built-in complex types
