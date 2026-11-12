@@ -52,4 +52,5 @@ A method is declared inside a `class`, `record`, or `struct`. Its declaration in
 
 ### Reference 
 [Methods (GeeksforGeeks)](https://www.geeksforgeeks.org/c-sharp/methods-in-c-sharp/)
+
 [Methods (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
