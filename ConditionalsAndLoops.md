@@ -62,6 +62,35 @@ In C# "continue" is only used when there is a loop. If you used "continue" in a 
 | `do-while` | A variant of a `while` loop that runs its code block once before checking the condition, then repeats as long as the condition remains `true`. |
 | `while` | Repeats a block of code as long as its condition is `true`. |
 
+```csharp
+// for: runs while i < 3 is true
+for (int i = 0; i < 3; i++)
+{
+    Console.WriteLine(i);          // output: 0, 1, 2
+}
+
+// foreach: visits every element, no index needed
+string[] names = { "Hadear", "Noor" };
+foreach (string name in names)
+{
+    Console.WriteLine(name);       // output: Hadear, Noor
+}
+
+// do-while: body runs once before the condition is checked
+int i = 0;
+do
+{
+    Console.Write(i + " ");          // output: 0 1 2 3 4 5 6 7 8 9 10
+} while (i <= 10);
+
+// while: checks the condition first
+int b = 0;
+while (b < 3)
+{
+    Console.WriteLine(b);          // output: 0, 1, 2
+    b++;
+}
+```
 
 ### 8. Are loop block variables treated differently than function block variables?
 
@@ -71,7 +100,7 @@ A variable made inside a loop only lives inside that loop. It disappears when th
 **function code blocks:**
 A variable made inside a function only lives inside that function. It disappears when the function ends.
 
-They both have the same rule, a variable only lives inside the curly braces where it was made.
+They both have the same rule: a variable only lives inside the curly braces where it was made.
 
 ## References
 [Conditional Statements](https://www.geeksforgeeks.org/c-sharp/c-sharp-decision-making-else-else-ladder-nested-switch-nested-switch/)
@@ -81,6 +110,9 @@ They both have the same rule, a variable only lives inside the curly braces wher
 [Jump Statements](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/jump-statements#the-continue-statement)
 
 [Iteration statements](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements)
+
+[Loops in C#](https://www.geeksforgeeks.org/c-sharp/loops-in-csharp/)
+
 [Boolean logical operators](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/boolean-logical-operators)
 
 
