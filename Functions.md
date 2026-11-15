@@ -55,15 +55,45 @@ returnType MethodName(parameters)
 ### 4. Can functions accept multiple parameters of different types?
 A method can have multiple parameters,and the arguments passed during the method call should match their order and compatible data types
 
+### 5. Can functions return multiple values at the same time?
+Yes a function can return multiple values at the same time. There are a couple of approaches to do so:
 
+| Approach | Best Used When | Advantages | Disadvantages |
+|---|---|---|---|
+| Reference parameters |Modifying existing variables|Direct variable modification|Variable must be initialized|
+| Output parameters |Creating new return values | No initialization required | Must assign before return |
+| Array | Same data types | Simple for homogeneous data | Limited to same type |
+| Tuple |  Different data types | Supports mixed types | Less readable with `Item1`, `Item2` |
+   
+### 6. Is C# pass-by-reference or pass-by-value?
+By default, C# is strictly pass by value. You can use parameter modifiers to pass arguments by reference.
 
-5. Can functions in your language return multiple values at the same time? How is that implemented? If not, are there ways around that problem? What are they?
-6. Is your language pass-by reference or value? Check your code against outside sources in case there is anything tricky going on (like in Perl).
-7. Where are the arguments, parameters and local variables stored (value-on-stack, ref-to-heap-on stack) during execution?
-8. What are the scoping rules in your language (visibility and lifetime of variables before, during and after code blocks)?
-9. Are side-effects possible? Are there guard rails against side-effects?
-10. Are side-effects possible? Are there guard rails against side-effects?
-11. Are there any other aspects of functions in your language that aren't specifically asked about here, but that are important to know in order to write one? What are they? (e.g. dynamic vsstatic scope)
+* **Pass by value:** The method gets a copy of the value. The copy is stored in its own spot on the stack.
+* **Pass by reference:** The method gets a copy of the reference (an alias) to the value. The reference points to the same spot on the stack as the original.
+
+### 7. Where are the arguments, parameters and local variables stored?
+arguments, parameters and local variables are stored in the stack 
+
+* **Stack Memory:** Is a fast memory structure used during method execution  
+* **Heap Memory:** Larger memory area used for objects that need a dynamic lifetime
+
+| Memory | What goes in |
+|---|---|
+| Stack | • Value types (`int`, `float`, `bool`)<br>• Primitive local variables<br>• Method calls<br>• References to objects that love in the heap |
+| Heap | • Objects (class, arrays, delegates)<br>•Fields of reference types (e.g., object properties)<br> •Data structures whose size and lifetime cannot be determined at compile time|
+
+### 8. What are the scoping rules?
+Scoping rules can be divided into three levels:
+* **Class Level Scope:** 
+* **Method Level Scope:**
+* **Block Level Scope:**
+
+### 9. Are side effects possible? Are there guard rails?
+
+### 10. Where are local variable values stored?
+
+### 11. Other important aspects of functions in C#
+
 
 ### Reference 
 [Methods (GeeksforGeeks)](https://www.geeksforgeeks.org/c-sharp/methods-in-c-sharp/)
@@ -73,3 +103,11 @@ A method can have multiple parameters,and the arguments passed during the method
 [Recursion](https://www.geeksforgeeks.org/c-sharp/recursion-in-c-sharp/)
 
 [Function Parameters in C#](https://www.geeksforgeeks.org/c-sharp/method-parameters-in-c-sharp/)
+
+[Return Multiple Values From a Function](https://www.tutorialspoint.com/article/how-can-we-return-multiple-values-from-a-function-in-chash)
+
+[Method parameters and Modifiers](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/method-parameters
+
+[C# Memory Management] (https://www.geeksforgeeks.org/c-sharp/c-memory-management/)
+
+[C# Scope of Variables](https://www.geeksforgeeks.org/c-sharp/scope-of-variables-in-c-sharp/)
