@@ -40,8 +40,23 @@ A method is declared inside a `class`, `record`, or `struct`. Its declaration in
 * **Name:** the identifier used to call the method.
 * **Parameters:** the inputs the method accepts, written in parentheses and separated by commas. Empty parentheses mean the method takes no inputs.
 
-3. Does your language support recursive functions?
-4. Can functions in your language accept multiple parameters? Can they be of different data types?
+### 3. Does C# support recursive functions?
+Yes C# does support recursion, it is a process which a method calls itself directly or indirectly. A method can call itself as long as it has a base case. It's most commonly used in problem such as factorial, Fibonacci, tree traversal, and DFS.
+
+Syntax:
+```csharp
+returnType MethodName(parameters)
+{
+    if (baseCondition)
+        return result;
+    return MethodName(updatedParameters);
+}
+```
+### 4. Can functions accept multiple parameters of different types?
+A method can have multiple parameters,and the arguments passed during the method call should match their order and compatible data types
+
+
+
 5. Can functions in your language return multiple values at the same time? How is that implemented? If not, are there ways around that problem? What are they?
 6. Is your language pass-by reference or value? Check your code against outside sources in case there is anything tricky going on (like in Perl).
 7. Where are the arguments, parameters and local variables stored (value-on-stack, ref-to-heap-on stack) during execution?
@@ -54,3 +69,7 @@ A method is declared inside a `class`, `record`, or `struct`. Its declaration in
 [Methods (GeeksforGeeks)](https://www.geeksforgeeks.org/c-sharp/methods-in-c-sharp/)
 
 [Methods (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
+
+[Recursion](https://www.geeksforgeeks.org/c-sharp/recursion-in-c-sharp/)
+
+[Function Parameters in C#](https://www.geeksforgeeks.org/c-sharp/method-parameters-in-c-sharp/)
