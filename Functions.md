@@ -106,8 +106,8 @@ Scoping rules can be divided into three levels:
 
 [Return Multiple Values From a Function](https://www.tutorialspoint.com/article/how-can-we-return-multiple-values-from-a-function-in-chash)
 
-[Method parameters and Modifiers](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/method-parameters
+[Method parameters and Modifiers](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/method-parameters)
 
-[C# Memory Management] (https://www.geeksforgeeks.org/c-sharp/c-memory-management/)
+[C# Memory Management](https://www.geeksforgeeks.org/c-sharp/c-memory-management/)
 
 [C# Scope of Variables](https://www.geeksforgeeks.org/c-sharp/scope-of-variables-in-c-sharp/)
