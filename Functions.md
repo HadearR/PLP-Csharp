@@ -135,15 +135,25 @@ void calculate(){
 
 ### Reference 
 * [Methods (GeeksforGeeks)](https://www.geeksforgeeks.org/c-sharp/methods-in-c-sharp/)
+
 * [Methods (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods)
+
 * [Recursion](https://www.geeksforgeeks.org/c-sharp/recursion-in-c-sharp/)
+
 * [Function Parameters in C#](https://www.geeksforgeeks.org/c-sharp/method-parameters-in-c-sharp/)
+
 * [Return Multiple Values From a Function](https://www.tutorialspoint.com/article/how-can-we-return-multiple-values-from-a-function-in-chash)
+
 * [Method parameters & Modifiers](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/method-parameters)
+
 * [C# Memory Management](https://www.geeksforgeeks.org/c-sharp/c-memory-management/)
+
 * [C# Scope of Variables](https://www.geeksforgeeks.org/c-sharp/scope-of-variables-in-c-sharp/)
+
 * [Side effect (computer science)](https://en.wikipedia.org/wiki/Side_effect_(computer_science))
+
 * [readonly (C# reference) (Microsoft Learn)](https://learn.microsoft.com/dotnet/csharp/language-reference/keywords/readonly)
+
 * [Write safe and efficient code (Microsoft Learn)](https://learn.microsoft.com/en-us/dotnet/csharp/write-safe-efficient-code)
 
 
