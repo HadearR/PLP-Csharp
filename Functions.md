@@ -1,5 +1,5 @@
 ## Functions in C#
-This tutorial covers how C# declares and uses functions. Runnable code is in [Methods.cs]().
+This tutorial covers how C# declares and uses functions. Runnable code is in [Methods.cs](https://github.com/HadearR/PLP-Csharp/blob/main/ConsoleApp1/Methods.cs).
 
 ### 1. What is the syntax for declaring a Method?
 In C#, functions are called **methods**, because they must belong to a class or struct.
